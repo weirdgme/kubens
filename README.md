@@ -1,17 +1,9 @@
 # `kubectx` + `kubens`: Power tools for kubectl
 
-![Latest GitHub release](https://img.shields.io/github/release/ahmetb/kubectx.svg)
-![GitHub stars](https://img.shields.io/github/stars/ahmetb/kubectx.svg?label=github%20stars)
-[![Go implementation (CI)](https://github.com/ahmetb/kubectx/workflows/Go%20implementation%20(CI)/badge.svg)](https://github.com/ahmetb/kubectx/actions?query=workflow%3A"Go+implementation+(CI)")
-![Proudly written in Bash](https://img.shields.io/badge/written%20in-bash-ff69b4.svg)
 
 This repository provides both `kubectx` and `kubens` tools.
 [Install &rarr;](#installation)
 
-> **🥳📰 NEWS:** With v0.9.0 `kubectx` and `kubens` **are now rewritten in Go**.
-> (Don't worry, our lovely **bash** versions are still available!) Please test
-> this new Go binaries by downloading them from
-> [**Releases &rarr;**](https://github.com/ahmetb/kubectx/releases)
 
 **`kubectx`** helps you switch between clusters back and forth:
 ![kubectx demo GIF](img/kubectx-demo.gif)
@@ -90,11 +82,8 @@ Active namespace is "default".
 
 ## Installation
 
-> **🥳📰 NEWS:** With v0.9.0 `kubectx` and `kubens` **are now rewritten in Go**.
-> (Don't worry, our lovely **bash** versions are still available!) Please test
-> this new Go binaries by downloading them from
-> [**Releases &rarr;**](https://github.com/ahmetb/kubectx/releases)
-
+> 
+>
 There are several installation options:
 
 - As kubectl plugins (macOS/Linux)
@@ -260,27 +249,9 @@ Colors in the output can be disabled by setting the
 
 -----
 
-####  Users
+#
 
-| What are others saying about kubectx? |
-| ---- |
-| _“Thank you for kubectx & kubens - I use them all the time & have them in my k8s toolset to maintain happiness :) ”_ – [@pbouwer](https://twitter.com/pbouwer/status/925896377929949184) |
-| _“I can't imagine working without kubectx and especially kubens anymore. It's pure gold.”_ – [@timoreimann](https://twitter.com/timoreimann/status/925801946757419008) |
-| _“I'm liking kubectx from @ahmetb, makes it super-easy to switch #Kubernetes contexts [...]”_ &mdash; [@lizrice](https://twitter.com/lizrice/status/928556415517589505) |
-| _“Also using it on a daily basis. This and my zsh config that shows me the current k8s context 😉”_ – [@puja108](https://twitter.com/puja108/status/928742521139810305) |
-| _“Lately I've found myself using the kubens command more than kubectx. Both very useful though :-)”_ – [@stuartleeks](https://twitter.com/stuartleeks/status/928562850464907264) |
-| _“yeah kubens rocks!”_ – [@embano1](https://twitter.com/embano1/status/928698440732815360) |
-| _“Special thanks to Ahmet Alp Balkan for creating kubectx, kubens, and kubectl aliases, as these tools made my life better.”_ – [@strebeld](https://medium.com/@strebeld/5-ways-to-enhance-kubectl-ux-97c8893227a) |
-| _“❤️ this shell script @ahmetb wrote to help make switching between kubectl config contexts a breeze.”_ – [@briandanowski](https://twitter.com/briandanowski/status/1085409568165896193) |
-
-> If you liked `kubectx`, you may like my [`kubectl-aliases`](https://github.com/ahmetb/kubectl-aliases) project, too.
+> If you liked `kubectx`, you may like [`kubectl-aliases`](https://github.com/weirdgme/kubectl-aliases) project, too.
 
 -----
 
-Disclaimer: This is not an official Google product.
-
-
-#### Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/ahmetb/kubectx.svg)](https://starcharts.herokuapp.com/ahmetb/kubectx)
-![Google Analytics](https://ga-beacon.appspot.com/UA-2609286-17/kubectx/README?pixel)
